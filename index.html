@@ -5,10 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phone Tail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-
+    <header class="bg-blue-950">
+        <nav class="p-3 lg:p-7 w-[80%] mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <div>
+                    <img class="w-24 lg:w-24" src="./assets/logo-3.png" alt="">
+                </div>
+                <div class="text-white space-x-5 hidden lg:flex">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Service</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+            <div class="text-white space-x-5 hidden lg:flex items-center">
+                <a href="">Login</a>
+                <button class="bg-red-600 p-2 rounded-md hover:bg-transparent duration-300">Get
+                    Started</button>
+            </div>
+            <div class="lg:hidden">
+                <img class="w-7" src="./assets/more.png" alt="">
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
